@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>Welcome to the Restaurant Menu Scraper</h1>
+<p>Click the button below to scrape menus.</p>
+<a href="{% url 'scrape_menus' %}" class="btn btn-primary">Scrape Menus</a>
+{% endblock %}
